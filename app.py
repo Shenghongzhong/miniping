@@ -11,10 +11,10 @@ def home():
     
 
     panels = [
-        {"title":"SuperHi API",'url':"https://api.superhi.com"}, 
-        {"title":"SuperHi Editor",'url':'https://editor.superhi.com'},
-        {"title":" Superhi Website",'url':'https://superhi.com'},
-        {'title':'BBC News','url':'https://www.bbc.com/news'}
+        {"title":"My LinkedIn",'url':"https://www.linkedin.com/in/shenghongzhong/"}, 
+        {"title":"My Medium",'url':'https://medium.com/@shenghongzhong'},
+        {"title":" My Jovian Profile",'url':'https://jovian.ai/shenghongzhong'},
+        {'title':'My Twitter','url':'https://twitter.com/ShenghongZhong'}
         ]
 
     return render_template("home.html",panels=panels)

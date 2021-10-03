@@ -1,1 +1,1 @@
-print("hello world")
+print(__version__)
